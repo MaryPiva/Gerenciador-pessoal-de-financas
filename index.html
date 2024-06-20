@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Finanças Pessoais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Finanças Pessoais</h1>
+    </header>
+    <main>
+        <section id="form-section">
+            <h2>Adicionar Transação</h2>
+            <form id="transaction-form">
+                <div class="form-group">
+                    <label for="description">Descrição:</label>
+                    <input type="text" id="description" required>
+                </div>
+                <div class="form-group">
+                    <label for="amount">Valor:</label>
+                    <input type="number" id="amount" required>
+                </div>
+                <div class="form-group">
+                    <label for="type">Tipo:</label>
+                    <select id="type" required>
+                        <option value="income">Receita</option>
+                        <option value="expense">Despesa</option>
+                    </select>
+                </div>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section id="transactions-section">
+            <h2>Transações</h2>
+            <ul id="transactions-list"></ul>
+        </section>
+        <section id="summary-section">
+            <h2>Resumo</h2>
+            <p>Total de Receitas: <span id="total-income">R$ 0,00</span></p>
+            <p>Total de Despesas: <span id="total-expense">R$ 0,00</span></p>
+            <p>Saldo: <span id="balance">R$ 0,00</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
