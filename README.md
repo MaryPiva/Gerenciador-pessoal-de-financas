@@ -1,3 +1,33 @@
+# Personal Finance Manager (In Progress)
+ Control and Financial Management
+
+This is a simple personal finance management application that allows users to add transactions (income and expenses) and view a summary of the current balance.
+
+## Project Structure
+
+The project consists of three main files:
+
+- `index.html`: Contains the HTML structure of the application.
+- `styles.css`: Contains the CSS styles for visual presentation.
+- `script.js`: Contains the JavaScript logic for the application.
+
+## Features
+
+- Add transactions with description, amount, and type (income or expense).
+- List all added transactions.
+- Display a summary of total income, expenses, and the current balance.
+
+## How to Use
+
+### 1. Clone the Repository
+
+Open it with your GitHub Desktop using the link:
+
+```sh
+https://github.com/MaryPiva/Gerenciador-pessoal-de-financas.git
+
+
+
 # Gerenciador Pessoal de Finanças(Em andamento)
  Controle e Gestão Financeira
 
