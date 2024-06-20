@@ -21,7 +21,5 @@ O projeto é composto por três arquivos principais:
 
 ### 1. Clonar o Repositório
 
-Clone o repositório para a sua máquina local usando o seguinte comando:
-
-```sh
-git clone https://github.com/seu-usuario/gerenciador-financas-pessoais.git
+Abra com o seu github desktop
+usando o link https://github.com/MaryPiva/Gerenciador-pessoal-de-financas.git
