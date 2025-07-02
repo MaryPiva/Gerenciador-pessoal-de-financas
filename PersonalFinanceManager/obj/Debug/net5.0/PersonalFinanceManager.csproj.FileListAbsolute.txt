@@ -1,0 +1,9 @@
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.csproj.AssemblyReference.cache
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.AssemblyInfoInputs.cache
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.AssemblyInfo.cs
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.csproj.CoreCompileInputs.cache
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.RazorAssemblyInfo.cache
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.RazorAssemblyInfo.cs
+C:\Users\44753\OneDrive\Documentos\MeusprojetosGitHub\Gerenciador-Pessoal-de-Finan-as-Em-andamento-\PersonalFinanceManager\obj\Debug\net5.0\PersonalFinanceManager.sourcelink.json

@@ -1,3 +1,3 @@
-{
-    "liveServer.settings.port": 5501
+"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=FinanceDb;Trusted_Connection=True;"
 }
