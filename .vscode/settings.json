@@ -1,3 +1,6 @@
-"ConnectionStrings": {
-  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=FinanceDb;Trusted_Connection=True;"
+{
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  }
 }
