@@ -1,55 +1,47 @@
-# Personal Finance Manager (In Progress)
- Control and Financial Management
+# 💸 Personal Finance Manager
 
-This is a simple personal finance management application that allows users to add transactions (income and expenses) and view a summary of the current balance.
+A simple and functional personal finance manager built with ASP.NET Core MVC and SQLite. It allows users to create, view, edit, and delete financial transactions, categorized as **Income** or **Expense**.
 
-## Project Structure
+---
 
-The project consists of three main files:
+## 🚀 Features
 
-- `index.html`: Contains the HTML structure of the application.
-- `styles.css`: Contains the CSS styles for visual presentation.
-- `script.js`: Contains the JavaScript logic for the application.
+- ✅ Add new financial transactions
+- ✅ List all transactions
+- ✅ Edit and delete existing records
+- ✅ Categorize transactions by type (Income or Expense)
+- ✅ Clean and responsive interface with Bootstrap
 
-## Features
+---
 
-- Add transactions with description, amount, and type (income or expense).
-- List all added transactions.
-- Display a summary of total income, expenses, and the current balance.
+## 🛠️ Technologies Used
 
-## How to Use
-
-### 1. Clone the Repository
-
-Open it with your GitHub Desktop using the link:
-
-```sh
-https://github.com/MaryPiva/Gerenciador-pessoal-de-financas.git
+- ASP.NET Core MVC
+- Entity Framework Core
+- SQLite
+- Bootstrap 5
+- C#
 
 
+---
 
-# Gerenciador Pessoal de Finanças(Em andamento)
- Controle e Gestão Financeira
+## ▶️ Getting Started
 
-Este é um aplicativo simples de gerenciamento de finanças pessoais, que permite aos usuários adicionar transações (receitas e despesas) e visualizar um resumo do saldo atual.
+### Prerequisites
+- [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- Visual Studio, Visual Studio Code, or any other compatible IDE
+---
 
-## Estrutura do Projeto
+🧠 Future Improvements
 
-O projeto é composto por três arquivos principais:
+Balance summary (Total Income, Expenses, Net)
 
-- `index.html`: Contém a estrutura HTML da aplicação.
-- `styles.css`: Contém os estilos CSS para a apresentação visual.
-- `script.js`: Contém a lógica JavaScript para o funcionamento da aplicação.
+Filtering by date or type
 
-## Funcionalidades
+File upload and export
 
-- Adicionar transações com descrição, valor e tipo (receita ou despesa).
-- Listar todas as transações adicionadas.
-- Exibir um resumo do total de receitas, despesas e o saldo atual.
+User authentication
 
-## Como Usar
+Deploy to web server
 
-### 1. Clonar o Repositório
 
-Abra com o seu github desktop
-usando o link https://github.com/MaryPiva/Gerenciador-pessoal-de-financas.git
