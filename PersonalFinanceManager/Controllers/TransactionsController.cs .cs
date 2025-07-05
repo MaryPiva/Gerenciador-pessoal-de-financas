@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using PersonalFinanceManager.Data;
 using PersonalFinanceManager.Models;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace PersonalFinanceManager.Controllers
 {
@@ -14,11 +16,17 @@ namespace PersonalFinanceManager.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+      public async Task<IActionResult> Index()
         {
-            var transactions = _context.Transactions.ToList();
+            var transactions = await _context.Transactions.ToListAsync();
+
+            ViewBag.TotalIncome = transactions.Where(t => t.Type == "Income").Sum(t => t.Amount);
+            ViewBag.TotalExpenses = transactions.Where(t => t.Type == "Expense").Sum(t => t.Amount);
+            ViewBag.Balance = ViewBag.TotalIncome - ViewBag.TotalExpenses;
+
             return View(transactions);
         }
+
 
         public IActionResult Create()
         {

@@ -18,6 +18,11 @@
         <span asp-validation-for="Amount" class="text-danger"></span>
     </div>
     <div class="mb-3">
+    <label asp-for="Date" class="form-label">Date</label>
+    <input asp-for="Date" class="form-control" type="date" />
+    <span asp-validation-for="Date" class="text-danger"></span>
+     </div>
+    <div class="mb-3">
         <label asp-for="Type" class="form-label">Type</label>
         <select asp-for="Type" class="form-select">
             <option value="Income">Income</option>

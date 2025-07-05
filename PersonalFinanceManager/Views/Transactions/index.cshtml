@@ -1,22 +1,52 @@
 @model IEnumerable<PersonalFinanceManager.Models.Transaction>
 
 @{
-    ViewData["Title"] = "All Transactions";
+    ViewData["Title"] = "Transactions";
 }
 
 <h2 class="mb-4">All Transactions</h2>
 
-<p>
+<div class="mb-4">
     <a class="btn btn-primary" asp-action="Create">+ New Transaction</a>
-</p>
+</div>
 
-<table class="table table-striped table-bordered">
+<!-- Cards de resumo -->
+<div class="row text-center mb-4">
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Total Income</h5>
+                <p class="card-text fw-bold">R$ @ViewBag.TotalIncome.ToString("F2")</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Total Expenses</h5>
+                <p class="card-text fw-bold">R$ @ViewBag.TotalExpenses.ToString("F2")</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Balance</h5>
+                <p class="card-text fw-bold">R$ @ViewBag.Balance.ToString("F2")</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tabela de transações -->
+<table class="table table-striped">
     <thead class="table-dark">
         <tr>
             <th>Description</th>
             <th>Amount</th>
             <th>Type</th>
-            <th></th>
+            <th>Date</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -24,12 +54,12 @@
         {
             <tr>
                 <td>@item.Description</td>
-                <td>@item.Amount.ToString("F2")</td>
+                <td>R$ @item.Amount.ToString("F2")</td>
                 <td>@item.Type</td>
+                <td>@item.Date.ToString("dd/MM/yyyy")</td>
                 <td>
-
-                  <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info">Edit</a>
-                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-info">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
         }

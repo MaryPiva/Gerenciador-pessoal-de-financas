@@ -16,8 +16,9 @@ namespace PersonalFinanceManager.Models
 
         [Required]
         public string Type { get; set; } // "income" or "expense"
-
+        
+        [Required]
         [DataType(DataType.Date)]
-        public DateTime Date { get; set; } = DateTime.Today;
+        public DateTime Date { get; set; }
     }
 }
